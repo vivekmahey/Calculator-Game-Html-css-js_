@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    gap: 70px;
+    border-radius: 6px;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.container h1 {
+    flex-basis: 50%;
+    text-align: center;
+    margin-left: 15%
+}
+
+.container p {
+    font-size: 30px;
+}
+
+.a p {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 150px;
+    border: 3px solid green;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.btn1:hover {
+    background-color: forestgreen;
+    color: bisque;
+}
+
+.lbl {
+    padding-top: 10px;
+    border-radius: 8px;
+    border: 3px solid burlywood;
+    height: 14em;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 100px;
+}
+
+label {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    font-size: 22px;
+    border: 3px solid black;
+    gap: 50px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:hover{
+    background-color:aliceblue;
+    color: black;
+}
+select {
+    width: 410px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#images{
+    border: 5px solid green;
+    background-color: blanchedalmond;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+#images img {
+    height: 150px; 
+    width: 150px; 
+    align-items: center;
+}
+#images span {
+     font-size: 20px;
+     color: solid black;
+     font-weight: bold;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}

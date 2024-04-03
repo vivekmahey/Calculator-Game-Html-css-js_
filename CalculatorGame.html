@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculatorGame</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator Game </h1>
+        <p class="score">Score : 1</p>
+    </div>
+    <div class="lbl">
+        <label for="num">Enter Number</label>
+        <input type="text" name="num" id="num" placeholder="Enter " autofocus>
+        <!-- <label for="operator">Select operator</label>
+    <input type="text" name="op" id="op" > -->
+        <label for="op">Select Operator</label>
+        <select name="op" id="op">
+            <option></option>
+            <OPtion>+</OPtion>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+        <div class="a">
+            <button class="btn1" onclick="generate()">Generate</button>
+        </div>
+
+    </div>
+    <div id="images">
+    <!-- Apended Code -->
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
